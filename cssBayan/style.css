@@ -81,4 +81,47 @@ label:active {
     color: #c0bebe;
 }
 
+@media (max-width: 1200px) {
+    html {
+        font-size: 0.8rem;
+    }
+    body {
+        width:70%;
+    }
+}
+@media (max-width: 770px) {
+    html {
+        font-size: 0.7rem;
+    }
+    body {
+        width:90%;
+    }
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 0.8rem;
+    }
+    body {
+        width:90%;
+    }
+}
+
+
+@media (hover: hover) {
+    .accordion:hover {
+        color: #c0bebe;
+    }
+    
+    .accordion:hover .meme-icon{
+        display: block;
+    }
+    .accordion label:hover .meme-icon {
+        transform: rotate(45deg);
+    }
+
+    label:hover .meme-img img {
+        width: 18rem;
+        margin-top: 1.2rem;
+    }
+}
 
