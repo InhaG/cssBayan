@@ -21,6 +21,10 @@ body {
     cursor: pointer;
 }
 
+.accordion * {
+    cursor:inherit;
+}
+
 .accordion .meme-img {
     display: flex;
     justify-content: center;
